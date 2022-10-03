@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.powernukkit.bedrock.leveldb:bedrock-leveldb-api:0.11.0-PN">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/powernukkit/bedrock/leveldb/bedrock-leveldb-api/0.11.0-PN/bedrock-leveldb-api-0.11.0-PN.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/powernukkit/bedrock/leveldb/bedrock-leveldb-api/0.11.0-PN/bedrock-leveldb-api-0.11.0-PN-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/powernukkit/bedrock/leveldb/bedrock-leveldb-api/0.11.0-PN/bedrock-leveldb-api-0.11.0-PN-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

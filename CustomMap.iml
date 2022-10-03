@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Nukkit-PM1E" level="project" />
+    <orderEntry type="library" name="Maven: cn.powernukkitx:powernukkitx:1.19.30-r1" level="project" />
+    <orderEntry type="library" name="Maven: org.powernukkit.bedrock.network:raknet:1.6.28-PN.3" level="project" />
+    <orderEntry type="library" name="Maven: org.powernukkit.bedrock.network:bedrock-network-common:1.6.28-PN.3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-unix-common:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-classes-epoll:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-classes-kqueue:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.75.Final" level="project" />
+    <orderEntry type="library" name="Maven: net.jodah:expiringmap:0.5.10" level="project" />
+    <orderEntry type="library" name="Maven: it.unimi.dsi:fastutil-core:8.5.4" level="project" />
+    <orderEntry type="library" name="Maven: it.unimi.dsi:fastutil-extra:8.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.powernukkit:version-library:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:30.1.1-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.9" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
+    <orderEntry type="library" name="Maven: org.powernukkit.bedrock.leveldb:bedrock-leveldb:0.11.0-PN" level="project" />
+    <orderEntry type="library" name="Maven: org.powernukkit.bedrock.leveldb:bedrock-leveldb-api:0.11.0-PN" level="project" />
+    <orderEntry type="library" name="Maven: io.sentry:sentry:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: io.sentry:sentry-log4j2:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.nimbusds:nimbus-jose-jwt:9.13" level="project" />
+    <orderEntry type="library" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="library" name="Maven: net.minecrell:terminalconsoleappender:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-terminal:3.21.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-terminal-jna:3.21.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-reader:3.21.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.intellij:annotations:12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j18-impl:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.8.0-beta4" level="project" />
+    <orderEntry type="library" name="Maven: org.graalvm.sdk:graal-sdk:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.graalvm.js:js:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.graalvm.regex:regex:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.graalvm.truffle:truffle-api:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.ibm.icu:icu4j:71.1" level="project" />
+    <orderEntry type="library" name="Maven: org.graalvm.js:js-scriptengine:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.graalvm.tools:profiler:22.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.graalvm.tools:chromeinspector:22.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.dfsek.terra:Terra:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.oshi:oshi-core:5.8.7" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.10.0" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:5.10.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
   </component>
 </module>
