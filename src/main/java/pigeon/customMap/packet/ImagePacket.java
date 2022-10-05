@@ -37,10 +37,11 @@ public class ImagePacket {
     }
 
     public static void spawnToAllByLocation(Location location){
-        BlockEntity be = location.getLevel().getBlockEntity(location);
-        if (be instanceof BlockEntityItemFrame) {
-            ((BlockEntityItemFrame) be).spawnToAll();
-        }
+//        if (location.getLevel() == null) return;
+//        BlockEntity be = location.getLevel().getBlockEntity(location);
+//        if (be instanceof BlockEntityItemFrame) {
+//            ((BlockEntityItemFrame) be).spawnToAll();
+//        }
     }
 
     public static void remove(long mapId) {

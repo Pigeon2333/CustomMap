@@ -1,5 +1,6 @@
 name: CustomMap
 main: pigeon.customMap.Main
+load: POSTWORLD
 version: 1.0.0
 api: ["1.0.0"]
 author: anseEND

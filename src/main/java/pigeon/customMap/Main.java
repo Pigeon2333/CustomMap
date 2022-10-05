@@ -49,12 +49,12 @@ public class Main extends PluginBase implements Listener {
         this.getServer().getPluginManager().registerEvents(this, this);
         this.getLogger().info("加载成功...");
         ImagePacket.reload();
-        Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
-            public void run() {
-                ImagePacket.sendPacket();
-            }
-        }, 1L, Config.getConfig().getInt("Delay", 5) * 1000L);
+//        Timer timer = new Timer();
+//        timer.schedule(new TimerTask() {
+//            public void run() {
+//                ImagePacket.sendPacket();
+//            }
+//        }, 1L, Config.getConfig().getInt("Delay", 5) * 1000L);
     }
 
     @EventHandler

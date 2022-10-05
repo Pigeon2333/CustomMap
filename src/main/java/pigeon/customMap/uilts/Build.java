@@ -95,7 +95,9 @@ public class Build {
                             pos = pos.north();
                     }
 
-                    loc1.getLevel().setBlock(pos, new BlockItemFrame(getMetaByFace(face)), true, false);
+                    var frame = new BlockItemFrame();
+                    frame.setBlockFace(face);
+                    loc1.getLevel().setBlock(pos, frame, true, false);
                     FullChunk chunk = loc1.getLevel().getChunk(pos.getFloorX() >> 4, pos.getFloorZ() >> 4, false);
                     CompoundTag nbt = (new CompoundTag()).putString("id", "ItemFrame").putInt("x", (int) pos.x).putInt("y", (int) pos.y).putInt("z", (int) pos.z);
                     final BlockEntityItemFrame frameEntity = new BlockEntityItemFrame(chunk, nbt);
